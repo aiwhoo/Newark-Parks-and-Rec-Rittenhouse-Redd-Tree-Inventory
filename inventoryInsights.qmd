@@ -1,0 +1,115 @@
+---
+title: "Inventory Insights"
+---
+
+The tree inventory reveals patterns in tree health and distribution across Rittenhouse and Redd Parks.
+
+## Tree Inventory Map 
+
+```{python}
+#| echo: false
+import plotly.graph_objects as go
+import plotly.express as px
+import pandas as pd
+
+trees = pd.read_csv("data/form-1__tree-inventory.csv")
+
+fig = go.Figure()
+
+# Filter out rows with missing coordinates
+trees_with_coords = trees.dropna(subset=['lat_6_Location', 'long_6_Location'])
+
+# Color set
+colors = (
+    px.colors.qualitative.Plotly +
+    px.colors.qualitative.Pastel
+)
+
+# Get unique park locations
+parks = trees_with_coords["2_Park_Location"].unique().tolist()
+parks_sorted = sorted([p for p in parks if pd.notna(p)])
+
+for i, park in enumerate(parks_sorted):
+    park_trees = trees_with_coords[trees_with_coords["2_Park_Location"] == park]
+    
+    if not park_trees.empty:
+        fig.add_trace(
+            go.Scattermap(
+                lat=park_trees["lat_6_Location"],
+                lon=park_trees["long_6_Location"],
+                mode="markers",
+                name=park,
+                marker=dict(
+                    size=8,
+                    opacity=0.8,
+                    color=colors[i % len(colors)]
+                ),
+                text=(park_trees["2_Park_Location"].astype(str) + "-" +
+                      park_trees["3_Tree_ID"].astype(str)),
+                customdata=park_trees[[
+                    "5_Tree_Height_ft", "7_Diameter_at_Breast", "10_Tree_Condition"
+                ]],
+                hovertemplate=
+                    "<b>%{text}</b><br>" +
+                    "Height: %{customdata[0]} ft<br>" +
+                    "DBH: %{customdata[1]}<br>" +
+                    "Condition: %{customdata[2]}<br>" +
+                    "<extra></extra>"
+            )
+        )
+
+fig.update_layout(
+    title=dict(
+        text="Tree Inventory Map",
+        x=0.5,
+        xanchor='center',
+        font=dict(size=15)
+    ),
+    map=dict(
+        style="carto-positron",
+        zoom=14,
+        center=dict(
+            lat=trees_with_coords["lat_6_Location"].mean(),
+            lon=trees_with_coords["long_6_Location"].mean()
+        )
+    ),
+    margin=dict(r=0, t=30, l=0, b=0),
+    height=600
+)
+
+fig
+```
+
+<br/>
+**Figure 1.** Tree inventory map showing locations of surveyed trees across parks.
+
+## Tree Condition Summary
+
+```{python}
+#| echo: false
+import plotly.express as px
+
+trees_clean = trees[trees["10_Tree_Condition"].notna()]
+
+if not trees_clean.empty:
+    condition_counts = trees_clean["10_Tree_Condition"].value_counts()
+    
+    fig = px.bar(
+        x=condition_counts.index,
+        y=condition_counts.values,
+        labels={'x': 'Tree Condition', 'y': 'Count'},
+        title='Tree Condition Distribution',
+        color=condition_counts.index,
+        color_discrete_map={
+            'Good': '#00CC96',
+            'Fair': '#636EFA',
+            'Poor': '#EF553B',
+            'Stump': '#808080'
+        }
+    )
+    
+    fig.show()
+```
+
+<br/>
+**Figure 2.** Distribution of tree conditions across the inventory.

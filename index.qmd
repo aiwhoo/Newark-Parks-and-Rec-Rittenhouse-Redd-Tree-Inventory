@@ -1,0 +1,39 @@
+---
+title: "Rittenhouse and Redd Tree Inventory for Newark Parks and Recreation (July 2026)"
+subtitle: "An Inventory of Tree Resources in Rittenhouse and Redd Parks"
+author:
+  - name: Matt
+affiliation:
+  - name: Technology Service Center, University of Delaware
+    url: https://www.sites.udel.edu/technology-service-center
+date: July 6, 2026
+version: "1.0"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+execute:
+  echo: false
+---
+
+**Prepared by**  
+Technology Service Center, University of Delaware  
+
+**Prepared for**  
+City of Newark Parks & Recreation  
+Newark, Delaware
+
+## Contact Information
+For questions regarding this report, please contact the Technology Service Center at University of Delaware.
+
+## Motivation
+
+The purpose of this inventory is to identify, measure, and document significant trees across Rittenhouse Park and Redd Park. This data collection effort provides a comprehensive baseline understanding of the tree resources in these parks.
+
+## Overview
+
+This inventory documents trees surveyed in Rittenhouse Park (RH-P), capturing essential metrics including tree height, diameter at breast height (DBH), canopy spread, and overall condition. The collected data supports park management decisions and long-term planning for urban forestry.
+
+## Inventoried Locations
+
+Data was collected from Rittenhouse Park and Redd Park, with a focus on documenting significant tree species and their characteristics.

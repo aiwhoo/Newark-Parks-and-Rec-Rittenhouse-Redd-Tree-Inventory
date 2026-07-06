@@ -1,0 +1,31 @@
+---
+title: "Method"
+---
+
+## Data Collection Tools and Procedure
+
+Data for the 2026 Rittenhouse and Redd Tree Inventory project were collected using the **EpicCollect5** mobile app. Field surveyors recorded the following information for each tree during inventory:
+
+- **Surveyor Name:** Individual(s) who collected the data.  
+- **Location:** GPS coordinates (latitude and longitude) for mapping and spatial analysis.  
+- **Park Location & Tree ID:** Unique identifiers assigned to each tree to enable tracking across parks.  
+- **Diameter at Breast Height (DBH):** Measured 4 ft 4 in above ground using a diameter tape. Circumference was recorded in inches.  
+- **Tree Height:** Measured in feet.  
+- **Two-Point Crown Spread:** Two perpendicular measurements across the widest points of the canopy.  
+- **Condition:** Visual rating of tree health as **Good**, **Fair**, or **Poor**.  
+- **Photo Documentation:** A photograph of each tree was taken for verification and record-keeping.  
+- **Notes:** Additional observations and any unusual features were recorded as needed.
+
+---
+
+## Condition Rating Criteria
+
+Tree condition was assessed visually using the following criteria:
+
+| Condition | Description |
+|-----------|-------------|
+| **Good**  | Healthy appearance with no major damage; branches generally upright. |
+| **Fair**  | Minor damage present (e.g., small holes, minor bark issues, leaking sap, or competing vegetation). |
+| **Poor**  | Significant damage or decay, including fungal growth, hollowed trunk or branches, or noticeable leaning. |
+
+**Table 1.** Visual indicators used to assess tree condition.

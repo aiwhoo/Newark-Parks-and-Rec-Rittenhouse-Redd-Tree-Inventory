@@ -1,0 +1,31 @@
+---
+title: "Appendix"
+---
+
+## Raw Data 
+
+- **Source Data:** form-1__tree-inventory.csv - EpicCollect5 exported tree inventory data
+
+## Data Fields
+
+The inventory includes the following measured and recorded fields:
+
+- **ec5_uuid:** Unique identifier from EpicCollect5
+- **created_at:** Timestamp when record was created
+- **uploaded_at:** Timestamp when record was uploaded
+- **1_Surveyor_Name:** Name of person conducting the survey
+- **2_Park_Location:** Location/park code (RH-P, etc.)
+- **3_Tree_ID:** Unique tree identifier
+- **4_Photo:** Reference to photo documentation
+- **5_Tree_Height_ft:** Height measurement in feet
+- **lat_6_Location:** Latitude coordinate
+- **long_6_Location:** Longitude coordinate
+- **accuracy_6_Location:** GPS accuracy in meters
+- **UTM_Northing_6_Location:** UTM northing coordinate
+- **UTM_Easting_6_Location:** UTM easting coordinate
+- **UTM_Zone_6_Location:** UTM zone
+- **7_Diameter_at_Breast:** DBH measurement
+- **8_Tree_Spread_tip_to:** Crown spread measurement 1
+- **9_Tree_Spread_tip_to:** Crown spread measurement 2
+- **10_Tree_Condition:** Visual condition rating (Good/Fair/Poor/Stump)
+- **11_Notes_eg_mushroom:** Additional notes and observations

@@ -1,0 +1,27 @@
+---
+title: "Executive Summary"
+format: html
+---
+
+## Key Findings
+
+The 2026 inventory of Rittenhouse and Redd Parks documents the current state of significant trees in these locations.
+
+### Tree Demographics
+* The inventory captures trees of varying ages and health statuses across the two parks.
+* Detailed measurements of height, diameter, and canopy spread have been recorded for analysis and management planning.
+
+### Health & Condition
+* Trees were assessed for visual condition indicators including rot, structural damage, and overall vitality.
+* Condition ratings provide a baseline for future monitoring and maintenance prioritization.
+
+---
+
+## Data Overview
+
+This inventory provides park managers with detailed information to support:
+
+* Long-term urban forestry planning
+* Risk assessment and maintenance prioritization
+* Tracking of tree health trends over time
+* Coordination with park development projects
