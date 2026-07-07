@@ -1,0 +1,56 @@
+Site,Tree ID,Tree Height,Latitude,Longitude,DBH,Spread 1,Spread 2,Tree Condition,Notes,Type of Significant Trees,Multi-branch?,Average Spread
+RH-P,57,5,39.657521,-75.75659,29,0,0,Stump,,Large mature tree,No,0.0
+RH-P,56,168,39.657547,-75.756559,34,59,45,Poor,Rot at bottom,Large mature tree,No,52.0
+RH-P,55,147,39.657466,-75.756489,29,45,60,Good,,Large mature tree,No,52.5
+RH-P,54,143,39.657543,-75.75649,32,55,35,Poor,possible Carpenter ants,Large mature tree,No,45.0
+RH-P,53,138,39.65745,-75.756574,24,45,55,Good,,Large mature tree,No,50.0
+RH-P,52,165,39.657478,-75.756563,31,45,100,Poor,,Large mature tree,No,72.5
+RH-P,51,134,39.657455,-75.756716,29,45,47,Poor,,Large mature tree,No,46.0
+RH-P,50,157,39.657391,-75.7565,42,65,60,Poor,"Mushrooms at base, and small rot.",Large mature tree,No,62.5
+RH-P,49,165,39.657386,-75.756359,40,65,143,Good,,Large mature tree,No,104.0
+RH-P,48,148,39.657211,-75.756545,51,65,130,Good,Multi branch,Large mature tree,Yes,97.5
+RH-P,47,136,39.657256,-75.756582,31,25,30,Poor,Rot making it poor,Large mature tree,No,27.5
+RH-P,46,131,39.65716,-75.75655,31,62,40,Good,Sample 2 estimate,Large mature tree,No,51.0
+RH-P,45,158,39.657086,-75.75645,39,42,58,Fair,Sample 2 estimate,Large mature tree,No,50.0
+RH-P,44,148,39.657126,-75.756283,41,53,47,Fair,,Large mature tree,No,50.0
+RH-P,43,146,39.657063,-75.756251,31,53,47,Good,,Large mature tree,No,50.0
+RH-P,42,157,39.657078,-75.756272,31,35,40,Good,Sample 2 estimate,Large mature tree,No,37.5
+RH-P,41,128,39.65708,-75.75644,20,31,45,Poor,,Large mature tree,No,38.0
+RH-P,40,156,39.656993,-75.756378,54,31,45,Fair,"Sample 2 estimate, significant moss and leaning making it fair.",Large mature tree,No,38.0
+RH-P,39,149,39.657033,-75.756557,38,85,42,Good,,Large mature tree,No,63.5
+RH-P,38,142,39.656886,-75.756625,44,78,45,Good,Sample 2 estimate,Large mature tree,No,61.5
+RH-P,37,137,39.65669,-75.756682,43,53,40,Poor,Sample 2 estimate,Large mature tree,No,46.5
+RH-P,36,137,39.656417,-75.757023,32,26,30,Good,Sample 2 estimate,Large mature tree,No,28.0
+RH-P,35,124,39.655776,-75.757309,29,45,32,Good,Spread 2 estimate,Large mature tree,No,38.5
+RH-P,34,128,39.65585,-75.75726,24,24,24,Good,Spread 2 estimate,Large mature tree,No,24.0
+RH-P,33,190,39.655439,-75.757248,44,62,58,Good,,Large mature tree,No,60.0
+RH-P,32,150,39.655282,-75.757193,33,58,42,Good,Estimate both spreads,Large mature tree,No,50.0
+RH-P,31,85,39.655375,-75.757146,29,38,42,Good,Estimate both spreads,Large mature tree,No,40.0
+RH-P,30,58,39.655373,-75.757147,24,23,25,Good,,Large mature tree,No,24.0
+RH-P,29,98,39.655397,-75.757198,20,42,13,Good,Estimate spread 2,Large mature tree,No,27.5
+RH-P,28,58,39.655408,-75.757149,41,46,42,Good,estimate on height,Large mature tree,No,44.0
+RH-P,27,42,39.655538,-75.757173,27,22,27,Good,,Large mature tree,No,24.5
+RH-P,25,144,39.655541,-75.757133,30,72,42,Good,,Large mature tree,No,57.0
+RH-P,24,144,39.655583,-75.75714,19,33,58,Good,Spread 2 is an estimate,Large mature tree,No,45.5
+RH-P,23,146,39.655603,-75.757181,30,27,61,Good,,Large mature tree,No,44.0
+RH-P,22,147,39.655666,-75.757139,31,45,30,Good,Has holes and burrows at the bottom,Large mature tree,No,37.5
+RH-P,21,133,39.655741,-75.757124,32,59,36,Good,,Large mature tree,No,47.5
+RH-P,20,157,39.655886,-75.757076,27,33,41,Good,,Large mature tree,No,37.0
+RH-P,18,112,39.655742,-75.757105,20,27,30,Good,,Large mature tree,No,28.5
+RH-P,17,153,39.655774,-75.757077,24,26,31,Good,,Large mature tree,No,28.5
+RH-P,16,138,39.656098,-75.756991,22,43,33,Good,,Large mature tree,No,38.0
+RH-P,15,147,39.655825,-75.757108,41,61,40,Good,Multi branch,Large mature tree,Yes,50.5
+RH-P,14,131,39.655872,-75.757094,24,32,51,Good,,Large mature tree,No,41.5
+RH-P,13,59,39.655893,-75.757091,17,41,41,Good,,Large mature tree,No,41.0
+RH-P,12,131,39.655983,-75.757122,27,32,40,Good,,Large mature tree,No,36.0
+RH-P,11,111,39.656111,-75.757219,40,22,22,Good,Estimate the spread since tree is on creek line.,Large mature tree,No,22.0
+RH-P,10,99,39.656345,-75.757049,27,45,45,Good,Second sample is an estimate.,Large mature tree,No,45.0
+RH-P,9,50,39.656205,-75.757026,21,21,23,Poor,Damaged and bulging.,Large mature tree,No,22.0
+RH-P,8,68,39.656265,-75.757091,21,32,32,Good,Second spread is an estimate since tree is overlooking creek.,Large mature tree,No,32.0
+RH-P,7,95,39.656214,-75.757172,15,37,36,Good,Spread 2 is an estimate because the tree is looking over a creek.,Large mature tree,No,36.5
+RH-P,6,143,39.656032,-75.757058,24,57,67,Fair,Missing bark.,Large mature tree,No,62.0
+RH-P,5,140,39.656165,-75.757025,35,70,72,Good,,Large mature tree,No,71.0
+RH-P,4,128,39.656208,-75.756989,16,36,40,Good,,Large mature tree,No,38.0
+RH-P,3,136,39.656256,-75.757,22,43,56,Good,,Large mature tree,No,49.5
+RH-P,2,158,39.656215,-75.756795,29,52,55,Good,,Large mature tree,No,53.5
+RH-P,1,154,39.656232,-75.755755,33,66,82,Good,Estimate on spread 2,Large mature tree,No,74.0

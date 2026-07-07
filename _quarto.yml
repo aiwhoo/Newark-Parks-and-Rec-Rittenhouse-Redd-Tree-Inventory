@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Rittenhouse and Redd Tree Inventory for Newark Parks and Recreation (July 2026)"
+  title: "Significant Tree Inventory for Newark Parks and Recreation (December 2025)"
 
   sidebar:
     style: "docked"

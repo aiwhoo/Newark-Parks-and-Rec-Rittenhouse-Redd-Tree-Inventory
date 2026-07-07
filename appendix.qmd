@@ -1,31 +1,64 @@
 ---
 title: "Appendix"
 ---
-
 ## Raw Data 
+- [EpicCollect5: Dashboard](https://five.epicollect.net/project/newark-parks-and-recreation-tree-inventory/data)
+- [Google Spreadsheet: Raw Data Exported from EpicCollect5](https://docs.google.com/spreadsheets/d/1CrADExohsLWq7vGZhaonv0nHoEUQfKkVnnjnETOM3Os/edit?usp=sharing)
+- [Tree Photo Gallery](https://drive.google.com/drive/folders/10HPgqNDYqSAtCczQflyiKSiRTvafz_Wb?usp=sharing)
 
-- **Source Data:** form-1__tree-inventory.csv - EpicCollect5 exported tree inventory data
+## Diameter at Breast Height (DBH) Summary Statistics 
 
-## Data Fields
+```{python}
+#| echo: false
 
-The inventory includes the following measured and recorded fields:
+import pandas as pd 
+trees = pd.read_csv("data/processedTreeData.csv")
 
-- **ec5_uuid:** Unique identifier from EpicCollect5
-- **created_at:** Timestamp when record was created
-- **uploaded_at:** Timestamp when record was uploaded
-- **1_Surveyor_Name:** Name of person conducting the survey
-- **2_Park_Location:** Location/park code (RH-P, etc.)
-- **3_Tree_ID:** Unique tree identifier
-- **4_Photo:** Reference to photo documentation
-- **5_Tree_Height_ft:** Height measurement in feet
-- **lat_6_Location:** Latitude coordinate
-- **long_6_Location:** Longitude coordinate
-- **accuracy_6_Location:** GPS accuracy in meters
-- **UTM_Northing_6_Location:** UTM northing coordinate
-- **UTM_Easting_6_Location:** UTM easting coordinate
-- **UTM_Zone_6_Location:** UTM zone
-- **7_Diameter_at_Breast:** DBH measurement
-- **8_Tree_Spread_tip_to:** Crown spread measurement 1
-- **9_Tree_Spread_tip_to:** Crown spread measurement 2
-- **10_Tree_Condition:** Visual condition rating (Good/Fair/Poor/Stump)
-- **11_Notes_eg_mushroom:** Additional notes and observations
+table_trees = trees.drop(columns=["Latitude", "Longitude", "Tree ID", "Multi-branch?", "Notes", "Tree Condition"])
+value_cols = ["DBH", "Tree Height", "Average Spread"]
+
+summary = (
+    trees
+    .groupby(["Type of Significant Trees", "Site"])[value_cols[0]]
+    .describe()
+)
+
+summary
+
+```
+
+**Table 3**: Diameter at Breast Height (DBH) Summary Statistics 
+
+## Tree Height Summary Statistics 
+
+```{python}
+#| echo: false
+
+summary = (
+    trees
+    .groupby(["Type of Significant Trees", "Site"])[value_cols[1]]
+    .describe()
+)
+
+summary
+
+```
+
+**Table 4**: Tree Height Summary Statistics 
+
+## Average Spread Summary Statistics 
+
+```{python}
+#| echo: false
+
+summary = (
+    trees
+    .groupby(["Type of Significant Trees", "Site"])[value_cols[2]]
+    .describe()
+)
+
+summary
+
+```
+
+**Table 5**: Average Spread Summary Statistics 

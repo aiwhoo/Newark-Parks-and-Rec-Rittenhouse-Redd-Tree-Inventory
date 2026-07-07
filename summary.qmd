@@ -5,23 +5,45 @@ format: html
 
 ## Key Findings
 
-The 2026 inventory of Rittenhouse and Redd Parks documents the current state of significant trees in these locations.
+The 2025 inventory of the James F. Hall Trail and associated parks reveals a predominantly healthy, mature urban forest, though specific zones require immediate attention.
 
-### Tree Demographics
-* The inventory captures trees of varying ages and health statuses across the two parks.
-* Detailed measurements of height, diameter, and canopy spread have been recorded for analysis and management planning.
+::: {.callout-important}
+### Critical Insight
+**JH-W (Trail Section)** represents the highest priority for risk management due to the concentration of poor-condition trees, while **Kells Park** requires long-term structural monitoring due to the size and multi-branch nature of its population.
+:::
 
-### Health & Condition
-* Trees were assessed for visual condition indicators including rot, structural damage, and overall vitality.
-* Condition ratings provide a baseline for future monitoring and maintenance prioritization.
+### 1. Tree Demographics
+* **Maturity:** The population is heavily skewed toward large mature trees (**72.15%**), providing significant canopy cover but requiring risk management for aging wood.
+* **Regeneration:** Recent planting efforts are evident, with **22.8%** of the inventory consisting of newly planted trees, primarily clustered in **JH-P**.
+
+### 2. Health & Condition
+* **Overall Health:** The majority of the trees is in **Good Condition (81.6%)**.
+* **Vulnerability:** Trail-side trees show higher rates of decline compared to park trees.
+* **Pathology:** The primary indicators of decline are visible rot and structural damage, rather than pest infestation, though some mushrooms are present.
 
 ---
 
-## Data Overview
+## Maintenance Recommendations
 
-This inventory provides park managers with detailed information to support:
+Based on the inventory data, the following maintenance actions are recommended:
 
-* Long-term urban forestry planning
-* Risk assessment and maintenance prioritization
-* Tracking of tree health trends over time
-* Coordination with park development projects
+| Priority | Location | Issue | Recommended Action |
+| :--- | :--- | :--- | :--- |
+| **High** | **JH-W** | Concentration of "Poor" condition trees | Conduct individual risk assessments (Level 2) to determine removal or mitigation needs. |
+| **Medium** | **Kell Park** | High volume of large, multi-branch trees | Schedule structural pruning to reduce failure risk over park amenities. |
+| **Low** | **JH-P** | High density of newly planted trees | Ensure watering schedule and check stakes/ties for girdling risk in 12-24 months. |
+
+---
+
+## Future Directions
+
+### Technological Integration
+We propose developing a **computer vision–based workflow** to assist in future tree screenings. By training models on images of visible rot and structural defects collected during this inventory, we can:
+
+1.  Automate preliminary condition assessments.
+2.  Reduce field workload for certified arborists.
+3.  Create a "triage" system to prioritize trees for manual inspection.
+
+### Recommended Long-Term Monitoring
+* **Cycle:** Repeat this inventory every 3-5 years to track growth rates and condition changes.
+* **GIS Integration:** Integrate these findings into the Newark city GIS layer to coordinate trail maintenance (paving/salting) with root zone protection.
