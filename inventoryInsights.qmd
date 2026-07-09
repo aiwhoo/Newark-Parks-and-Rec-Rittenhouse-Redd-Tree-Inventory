@@ -441,24 +441,41 @@ fig.show()
 
 <br/>
 
-| Site | Large mature tree | Young tree | Newly planted tree |
-|------|-------------------|------------|--------------------|
-| JH-W | 4 | 0 | 0 |
-| JH-P | 2 | 0 | 2 |
-| JH-A | 0 | 0 | 0 |
-| PHIL | 1 | 2 | 1 |
-| LEW  | 6 | 0 | 0 |
-| KELL | 8 | 0 | 1 |
+```{python}
+#| echo: false
+multi_branch_trees = trees[trees["Multi-branch?"] == "Yes"]
+
+if multi_branch_trees.empty:
+    multi_branch_table = pd.DataFrame(
+        columns=["Site"] + tree_order
+    )
+else:
+    multi_branch_table = (
+        multi_branch_trees
+        .pivot_table(
+            index="Site",
+            columns="Type of Significant Trees",
+            values="Tree ID",
+            aggfunc="count",
+            fill_value=0
+        )
+        .reindex(columns=tree_order, fill_value=0)
+        .reset_index()
+    )
+
+multi_branch_table.columns.name = None
+multi_branch_table.to_html(index=False)
+```
 
 <br/>
 
 **Table 2.** Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.
 
-Multi-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow “V”-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young ([Mitchell 2017](inventoryInsights.html#references)).
+Multi-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow "V"-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young ([Mitchell 2017](inventoryInsights.html#references)).
 
-As shown in Figure [7](inventoryInsights.html#multi-branch-trees-across-sites), Kells Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table [2](inventoryInsights.html#multi-branch-trees-across-sites)), suggesting that this site would benefit from focused monitoring over time.
+As shown in Figure [7](inventoryInsights.html#multi-branch-trees-across-sites), Rittenhouse Park includes two inventoried multi-branch trees. Both are classified as large mature trees (Table [2](inventoryInsights.html#multi-branch-trees-across-sites)), indicating that structural monitoring should focus on mature-tree branch unions and any signs of included bark, decay, cracking, or weak attachment.
 
-In addition, multi-branch young and newly planted trees were identified in JH-P, Philips Park, and Kells Park, where early pruning may help guide branch development and reduce future maintenance needs.
+No young or newly planted multi-branch trees were identified in the current Rittenhouse Park inventory. As a result, the main management priority is not early structural pruning of new plantings, but periodic inspection of the two mature multi-branch trees to determine whether either has codominant stems or other structural concerns requiring arborist review.
 
 ## Orthogonal Spread Measurements
 
