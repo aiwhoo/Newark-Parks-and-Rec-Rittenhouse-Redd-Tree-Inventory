@@ -606,9 +606,52 @@ Tree condition was not evenly distributed across site locations. Notably, JH-W h
 
 When toggling on only poor-condition trees in Figure [10](inventoryInsights.html#tree-conditions), trail locations (JH-A, JH-L, JH-UD, and JH-W) collectively accounted for a substantially higher number of poor-condition trees (13) compared to park locations (LEW and PHIL), which together contained only two. This finding suggests that trees along trails may be more vulnerable to stressors than those in park settings.
 
-<div style="text-align: center;">
-  <img src="/assets/poorConditionWordCloud.png" width="750">
-</div>
+```{python}
+#| echo: false
+
+from wordcloud import WordCloud, STOPWORDS
+import matplotlib.pyplot as plt
+
+# Use the existing processed dataframe "trees"
+
+poor_trees = trees[
+    trees["Tree Condition"].astype(str).str.lower().str.strip() == "poor"
+]
+
+text = " ".join(
+    poor_trees["Notes"]
+    .fillna("")
+    .astype(str)
+)
+
+stopwords = set(STOPWORDS)
+stopwords.update([
+    "tree",
+    "trees",
+    "park",
+    "condition",
+    "poor",
+    "good",
+    "fair",
+    "nan"
+])
+
+if text.strip():
+    wordcloud = WordCloud(
+        width=1200,
+        height=600,
+        background_color="white",
+        stopwords=stopwords,
+        colormap="viridis"
+    ).generate(text)
+
+    plt.figure(figsize=(10,5))
+    plt.imshow(wordcloud, interpolation="bilinear")
+    plt.axis("off")
+    plt.show()
+else:
+    print("No notes available for poor-condition trees.")
+```
 
 **Figure 11.** Word cloud showing the most commonly noted characteristics of poor-condition trees. Visual rotting is the most commonly noted characteristics of poor-condition trees.
 
