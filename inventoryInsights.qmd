@@ -23,7 +23,7 @@ colors = (
     px.colors.qualitative.Pastel
 )
 
-sites = ["RH-P"]
+sites = trees["Site"].dropna().unique().tolist()
 
 for i, site in enumerate(sites):
     site_trees = trees[trees["Site"] == site]
