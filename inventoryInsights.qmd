@@ -179,7 +179,16 @@ metrics = [
     ("Average Spread", "Average Spread")
 ]
 
-tree_types = ["Large mature tree", "Young tree", "Newly planted tree"]
+tree_type_order = ["Large mature tree", "Young tree", "Newly planted tree"]
+tree_types = [
+    tree_type
+    for tree_type in tree_type_order
+    if tree_type in trees["Type of Significant Trees"].dropna().unique()
+]
+
+# Ensure the histogram inputs reflect the current processed data as numeric values.
+for _, column_name in metrics:
+    trees[column_name] = pd.to_numeric(trees[column_name], errors="coerce")
 
 # Custom color map by type of significant trees
 type_colors = {
@@ -204,7 +213,7 @@ for col, (_, column_name) in enumerate(metrics, start=1):
             x=trees.loc[
                 trees["Type of Significant Trees"] == initial_type,
                 column_name
-            ],
+            ].dropna(),
             nbinsx=15,
             marker_color=type_colors[initial_type],
             showlegend=False
@@ -227,7 +236,7 @@ for ttype in tree_types:
                         trees.loc[
                             trees["Type of Significant Trees"] == ttype,
                             col_name
-                        ]
+                        ].dropna()
                         for _, col_name in metrics
                     ],
                     "marker.color": [type_colors[ttype]] * len(metrics)
@@ -261,7 +270,7 @@ fig
 
 ```
 <br/>
-**Figure 5.** Histogram of tree height, DBH, average spread for each type of signficiant trees. Toggle to switch between each type of trees. 
+**Figure 5.** Histogram of tree height, DBH, and average spread for each type of significant tree. Toggle to switch between each tree type. 
 
 ## Tree Type Distribution Across Sites
 <br/>
