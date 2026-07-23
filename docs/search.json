@@ -1,53 +1,24 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Significant Tree Inventory for Newark Parks and Recreation (December 2025)",
+    "objectID": "WORKFLOW.html",
+    "href": "WORKFLOW.html",
+    "title": "Development Workflow",
     "section": "",
-    "text": "Prepared by\nTechnology Service Center, University of Delaware\nPrepared for\nCity of Newark Parks & Recreation\nNewark, Delaware",
-    "crumbs": [
-      "Motivation"
-    ]
+    "text": "This document outlines the team’s development workflow for the Rittenhouse and Redd Tree Inventory project.\n\n\nRepository\n    ↓\nClone Project\n    ↓\nMake Changes\n    ↓\nCommit Changes\n    ↓\nPush Changes\n    ↓\nOpen Pull Request\n    ↓\nReview\n    ↓\nMerge\n\n\n\n\n\nThe central location where the project is stored. This is the source of truth for the Rittenhouse and Redd Tree Inventory data and project files on GitHub.\n\n\n\nCreates a local copy of the project on your machine so you can work on it.\ngit clone https://github.com/aiwhoo/Newark-Parks-and-Rec-Rittenhouse-Redd-Tree-Inventory.git\ncd Newark-Parks-and-Rec-Rittenhouse-Redd-Tree-Inventory\n\n\n\nEdit files, add new data, or update the tree inventory records as needed.\n\n\n\nA saved checkpoint describing a specific change. Always write clear, descriptive commit messages.\nExample:\ngit commit -m \"Update data source for Rittenhouse inventory\"\nGood commit message practices: - Be specific about what changed - Include the type of change (e.g., Update, Add, Fix) - Reference the data or feature being modified\n\n\n\nUploads your local changes to GitHub.\ngit push origin main\n\n\n\nCreates a pull request to allow your changes to be reviewed before being merged into the main project. This ensures code quality and team awareness of changes.\n\n\n\nTeam members review the changes, provide feedback, and approve or request modifications.\n\n\n\nOnce approved, the pull request is merged into the main branch, making the changes permanent in the project.\n\nFor the Rittenhouse and Redd Tree Inventory project: Changes typically involve updating tree survey data, adding new tree records, or improving data quality in the form-1__tree-inventory.csv file."
   },
   {
-    "objectID": "index.html#contact-information",
-    "href": "index.html#contact-information",
-    "title": "Significant Tree Inventory for Newark Parks and Recreation (December 2025)",
-    "section": "Contact Information",
-    "text": "Contact Information\nFor questions regarding this report, please contact Matthew Saponaro, Ph.D., Director of the Technology Service Center at University of Delaware",
-    "crumbs": [
-      "Motivation"
-    ]
+    "objectID": "WORKFLOW.html#workflow-steps",
+    "href": "WORKFLOW.html#workflow-steps",
+    "title": "Development Workflow",
+    "section": "",
+    "text": "Repository\n    ↓\nClone Project\n    ↓\nMake Changes\n    ↓\nCommit Changes\n    ↓\nPush Changes\n    ↓\nOpen Pull Request\n    ↓\nReview\n    ↓\nMerge"
   },
   {
-    "objectID": "index.html#motivation",
-    "href": "index.html#motivation",
-    "title": "Significant Tree Inventory for Newark Parks and Recreation (December 2025)",
-    "section": "Motivation",
-    "text": "Motivation\nThe purpose of this inventory is to identify, measure, and document significant trees across the James F. Hall Trail and three local parks (Phillips, Lewis, and Kells). The collected data will support planning, maintenance, ecological assessments, and long-term urban forestry initiatives.",
-    "crumbs": [
-      "Motivation"
-    ]
-  },
-  {
-    "objectID": "index.html#overview",
-    "href": "index.html#overview",
-    "title": "Significant Tree Inventory for Newark Parks and Recreation (December 2025)",
-    "section": "Overview",
-    "text": "Overview\nIn total, 158 significant trees were inventoried. Of these, 114 are large mature trees (72.15%), 8 are young trees (5.06%), and 36 are newly planted (22.78%). See figure 6 for more details. In this project, “significant trees” were defined as follows:\n\nLarge mature trees: Any trees with a Diameter at Breast height (DBH) ≥ 20 inches\nYoung tree: Young, intentionally planted trees that have reached a stage of growth where supplemental support is no longer present\nNewly planted trees: Young, intentionally planted trees with supplemental support (e.g., wooden stakes or protective cages)",
-    "crumbs": [
-      "Motivation"
-    ]
-  },
-  {
-    "objectID": "index.html#inventoried-locations",
-    "href": "index.html#inventoried-locations",
-    "title": "Significant Tree Inventory for Newark Parks and Recreation (December 2025)",
-    "section": "Inventoried Locations",
-    "text": "Inventoried Locations\nWe collected the data on James F. Hall Trail, a widely used trail that runs through three local parks: Phillips, Lewis, and Kells. The inventory included significant trees located within a 15-foot buffer of the paved trail or within a 15-foot fall distance of park amenities. To maintain an organized approach, the trail was divided into 8 smaller sections (JH-W, JH-P, JH-A, JH-L, JH-K, JH-R, JH-UD, and JH-E). Including the three individual park sites (PHIL, LEW, KELL), the study encompassed a total of 11 inventory locations.\n\n\n Figure 1. Map showing inventoried tree locations along the James F. Hall Trail and surrounding parks.",
-    "crumbs": [
-      "Motivation"
-    ]
+    "objectID": "WORKFLOW.html#step-by-step-guide",
+    "href": "WORKFLOW.html#step-by-step-guide",
+    "title": "Development Workflow",
+    "section": "",
+    "text": "The central location where the project is stored. This is the source of truth for the Rittenhouse and Redd Tree Inventory data and project files on GitHub.\n\n\n\nCreates a local copy of the project on your machine so you can work on it.\ngit clone https://github.com/aiwhoo/Newark-Parks-and-Rec-Rittenhouse-Redd-Tree-Inventory.git\ncd Newark-Parks-and-Rec-Rittenhouse-Redd-Tree-Inventory\n\n\n\nEdit files, add new data, or update the tree inventory records as needed.\n\n\n\nA saved checkpoint describing a specific change. Always write clear, descriptive commit messages.\nExample:\ngit commit -m \"Update data source for Rittenhouse inventory\"\nGood commit message practices: - Be specific about what changed - Include the type of change (e.g., Update, Add, Fix) - Reference the data or feature being modified\n\n\n\nUploads your local changes to GitHub.\ngit push origin main\n\n\n\nCreates a pull request to allow your changes to be reviewed before being merged into the main project. This ensures code quality and team awareness of changes.\n\n\n\nTeam members review the changes, provide feedback, and approve or request modifications.\n\n\n\nOnce approved, the pull request is merged into the main branch, making the changes permanent in the project.\n\nFor the Rittenhouse and Redd Tree Inventory project: Changes typically involve updating tree survey data, adding new tree records, or improving data quality in the form-1__tree-inventory.csv file."
   },
   {
     "objectID": "method.html",
@@ -120,6 +91,106 @@
     ]
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Significant Tree Inventory for Newark Parks and Recreation (December 2025)",
+    "section": "",
+    "text": "Prepared by\nTechnology Service Center, University of Delaware\nPrepared for\nCity of Newark Parks & Recreation\nNewark, Delaware",
+    "crumbs": [
+      "Motivation"
+    ]
+  },
+  {
+    "objectID": "index.html#contact-information",
+    "href": "index.html#contact-information",
+    "title": "Significant Tree Inventory for Newark Parks and Recreation (December 2025)",
+    "section": "Contact Information",
+    "text": "Contact Information\nFor questions regarding this report, please contact Matthew Saponaro, Ph.D., Director of the Technology Service Center at University of Delaware",
+    "crumbs": [
+      "Motivation"
+    ]
+  },
+  {
+    "objectID": "index.html#motivation",
+    "href": "index.html#motivation",
+    "title": "Significant Tree Inventory for Newark Parks and Recreation (December 2025)",
+    "section": "Motivation",
+    "text": "Motivation\nThe purpose of this inventory is to identify, measure, and document significant trees across the James F. Hall Trail and three local parks (Phillips, Lewis, and Kells). The collected data will support planning, maintenance, ecological assessments, and long-term urban forestry initiatives.",
+    "crumbs": [
+      "Motivation"
+    ]
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Significant Tree Inventory for Newark Parks and Recreation (December 2025)",
+    "section": "Overview",
+    "text": "Overview\nIn total, 158 significant trees were inventoried. Of these, 114 are large mature trees (72.15%), 8 are young trees (5.06%), and 36 are newly planted (22.78%). See figure 6 for more details. In this project, “significant trees” were defined as follows:\n\nLarge mature trees: Any trees with a Diameter at Breast height (DBH) ≥ 20 inches\nYoung tree: Young, intentionally planted trees that have reached a stage of growth where supplemental support is no longer present\nNewly planted trees: Young, intentionally planted trees with supplemental support (e.g., wooden stakes or protective cages)",
+    "crumbs": [
+      "Motivation"
+    ]
+  },
+  {
+    "objectID": "index.html#inventoried-locations",
+    "href": "index.html#inventoried-locations",
+    "title": "Significant Tree Inventory for Newark Parks and Recreation (December 2025)",
+    "section": "Inventoried Locations",
+    "text": "Inventoried Locations\nWe collected the data on James F. Hall Trail, a widely used trail that runs through three local parks: Phillips, Lewis, and Kells. The inventory included significant trees located within a 15-foot buffer of the paved trail or within a 15-foot fall distance of park amenities. To maintain an organized approach, the trail was divided into 8 smaller sections (JH-W, JH-P, JH-A, JH-L, JH-K, JH-R, JH-UD, and JH-E). Including the three individual park sites (PHIL, LEW, KELL), the study encompassed a total of 11 inventory locations.\n\n\n Figure 1. Map showing inventoried tree locations along the James F. Hall Trail and surrounding parks.",
+    "crumbs": [
+      "Motivation"
+    ]
+  },
+  {
+    "objectID": "appendix.html",
+    "href": "appendix.html",
+    "title": "Appendix",
+    "section": "",
+    "text": "EpicCollect5: Dashboard\nGoogle Spreadsheet: Raw Data Exported from EpicCollect5\nTree Photo Gallery",
+    "crumbs": [
+      "Appendix"
+    ]
+  },
+  {
+    "objectID": "appendix.html#raw-data",
+    "href": "appendix.html#raw-data",
+    "title": "Appendix",
+    "section": "",
+    "text": "EpicCollect5: Dashboard\nGoogle Spreadsheet: Raw Data Exported from EpicCollect5\nTree Photo Gallery",
+    "crumbs": [
+      "Appendix"
+    ]
+  },
+  {
+    "objectID": "appendix.html#diameter-at-breast-height-dbh-summary-statistics",
+    "href": "appendix.html#diameter-at-breast-height-dbh-summary-statistics",
+    "title": "Appendix",
+    "section": "Diameter at Breast Height (DBH) Summary Statistics",
+    "text": "Diameter at Breast Height (DBH) Summary Statistics\n\n\n\n\n\n\n\n\n\n\ncount\nmean\nstd\nmin\n25%\n50%\n75%\nmax\n\n\nType of Significant Trees\nSite\n\n\n\n\n\n\n\n\n\n\n\n\nLarge mature tree\nRH-P\n55.0\n30.436364\n8.666162\n15.0\n24.0\n30.0\n34.5\n54.0\n\n\n\n\n\n\n\nTable 3: Diameter at Breast Height (DBH) Summary Statistics",
+    "crumbs": [
+      "Appendix"
+    ]
+  },
+  {
+    "objectID": "appendix.html#tree-height-summary-statistics",
+    "href": "appendix.html#tree-height-summary-statistics",
+    "title": "Appendix",
+    "section": "Tree Height Summary Statistics",
+    "text": "Tree Height Summary Statistics\n\n\n\n\n\n\n\n\n\n\ncount\nmean\nstd\nmin\n25%\n50%\n75%\nmax\n\n\nType of Significant Trees\nSite\n\n\n\n\n\n\n\n\n\n\n\n\nLarge mature tree\nRH-P\n55.0\n128.218182\n36.497941\n5.0\n126.0\n138.0\n148.5\n190.0\n\n\n\n\n\n\n\nTable 4: Tree Height Summary Statistics",
+    "crumbs": [
+      "Appendix"
+    ]
+  },
+  {
+    "objectID": "appendix.html#average-spread-summary-statistics",
+    "href": "appendix.html#average-spread-summary-statistics",
+    "title": "Appendix",
+    "section": "Average Spread Summary Statistics",
+    "text": "Average Spread Summary Statistics\n\n\n\n\n\n\n\n\n\n\ncount\nmean\nstd\nmin\n25%\n50%\n75%\nmax\n\n\nType of Significant Trees\nSite\n\n\n\n\n\n\n\n\n\n\n\n\nLarge mature tree\nRH-P\n55.0\n45.345455\n17.797699\n0.0\n36.75\n45.0\n51.5\n104.0\n\n\n\n\n\n\n\nTable 5: Average Spread Summary Statistics",
+    "crumbs": [
+      "Appendix"
+    ]
+  },
+  {
     "objectID": "inventoryInsights.html",
     "href": "inventoryInsights.html",
     "title": "Inventory Insights",
@@ -154,7 +225,7 @@
     "href": "inventoryInsights.html#tree-height-dbh-and-average-spread-distribution",
     "title": "Inventory Insights",
     "section": "Tree Height, DBH, and Average Spread Distribution",
-    "text": "Tree Height, DBH, and Average Spread Distribution\n\n\n                            \n                                            \n\n\n Figure 5. Histogram of tree height, DBH, average spread for each type of signficiant trees. Toggle to switch between each type of trees.",
+    "text": "Tree Height, DBH, and Average Spread Distribution\n\n\n                            \n                                            \n\n\n Figure 5. Histogram of tree height, DBH, and average spread for each type of significant tree. Toggle to switch between each tree type.",
     "crumbs": [
       "Insights"
     ]
@@ -174,7 +245,7 @@
     "href": "inventoryInsights.html#multi-branch-trees-across-sites",
     "title": "Inventory Insights",
     "section": "Multi-Branch Trees Across Sites",
-    "text": "Multi-Branch Trees Across Sites\n\n\n                            \n                                            \n\n\n Figure 7. Overall number of multi-branch trees by site.\n\n\n\n\nSite\nLarge mature tree\nYoung tree\nNewly planted tree\n\n\n\n\nJH-W\n4\n0\n0\n\n\nJH-P\n2\n0\n2\n\n\nJH-A\n0\n0\n0\n\n\nPHIL\n1\n2\n1\n\n\nLEW\n6\n0\n0\n\n\nKELL\n8\n0\n1\n\n\n\n\nTable 2. Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.\nMulti-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow “V”-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young (Mitchell 2017).\nAs shown in Figure 7, Kells Park contains the highest number of multi-branch trees (9). Of these, eight are classified as large mature trees (Table 2), suggesting that this site would benefit from focused monitoring over time.\nIn addition, multi-branch young and newly planted trees were identified in JH-P, Philips Park, and Kells Park, where early pruning may help guide branch development and reduce future maintenance needs.",
+    "text": "Multi-Branch Trees Across Sites\n\n\n                            \n                                            \n\n\n Figure 7. Overall number of multi-branch trees by site.\n\n\n\n\n\n\n\n\n\n\nSite\n\n\n\nLarge mature tree\n\n\n\nYoung tree\n\n\n\nNewly planted tree\n\n\n\n\n\n\n\n\n\n\n\nRH-P\n\n\n\n2\n\n\n\n0\n\n\n\n0\n\n\n\n\n\n\n\n\n\n\nTable 2. Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.\nMulti-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow “V”-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young (Mitchell 2017).\nAs shown in Figure 7, Rittenhouse Park includes two inventoried multi-branch trees. Both are classified as large mature trees (Table 2), indicating that structural monitoring should focus on mature-tree branch unions and any signs of included bark, decay, cracking, or weak attachment.\nNo young or newly planted multi-branch trees were identified in the current Rittenhouse Park inventory. As a result, the main management priority is not early structural pruning of new plantings, but periodic inspection of the two mature multi-branch trees to determine whether either has codominant stems or other structural concerns requiring arborist review.",
     "crumbs": [
       "Insights"
     ]
@@ -194,7 +265,7 @@
     "href": "inventoryInsights.html#tree-conditions",
     "title": "Inventory Insights",
     "section": "Tree Conditions",
-    "text": "Tree Conditions\n\n\n                            \n                                            \n\n\n\nFigure 9. Tree condition breakdown by type of significant tree. Poor condition trees are all large and mature.\n\n\n                            \n                                            \n\n\nFigure 10. Condition of trees by site.\nAcross all inventoried trees, the majority (81.65%) were rated in good condition, with smaller proportions classified as fair (8.86%) or poor (9.49%).\nTree condition was not evenly distributed across site locations. Notably, JH-W had the highest number of poor-condition trees (10), which stands out relative to most other locations.\nWhen toggling on only poor-condition trees in Figure 10, trail locations (JH-A, JH-L, JH-UD, and JH-W) collectively accounted for a substantially higher number of poor-condition trees (13) compared to park locations (LEW and PHIL), which together contained only two. This finding suggests that trees along trails may be more vulnerable to stressors than those in park settings.\n\n\n\nFigure 11. Word cloud showing the most commonly noted characteristics of poor-condition trees. Visual rotting is the most commonly noted characteristics of poor-condition trees.",
+    "text": "Tree Conditions\n\n\n                            \n                                            \n\n\n\nFigure 9. Tree condition breakdown by type of significant tree. Poor condition trees are all large and mature.\n\n\n                            \n                                            \n\n\nFigure 10. Condition of trees by site.\nAcross all inventoried trees, the majority (81.65%) were rated in good condition, with smaller proportions classified as fair (8.86%) or poor (9.49%).\nTree condition was not evenly distributed across site locations. Notably, JH-W had the highest number of poor-condition trees (10), which stands out relative to most other locations.\nWhen toggling on only poor-condition trees in Figure 10, trail locations (JH-A, JH-L, JH-UD, and JH-W) collectively accounted for a substantially higher number of poor-condition trees (13) compared to park locations (LEW and PHIL), which together contained only two. This finding suggests that trees along trails may be more vulnerable to stressors than those in park settings.\n\n\n\n\n\n\n\n\n\nFigure 11. Word cloud showing the most commonly noted characteristics of poor-condition trees. Visual rotting is the most commonly noted characteristics of poor-condition trees.",
     "crumbs": [
       "Insights"
     ]
@@ -207,6 +278,46 @@
     "text": "References\nMitchell, Ralph E. “Codominant Stems – Potential Future Tree Failures.” UF/IFAS Extension Charlotte County, 18 May 2017, blogs.ifas.ufl.edu/charlotteco/2017/05/18/codominant-stems-potential-future-tree-failures/.",
     "crumbs": [
       "Insights"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "Executive Summary",
+    "section": "",
+    "text": "The 2025 inventory of the James F. Hall Trail and associated parks reveals a predominantly healthy, mature urban forest, though specific zones require immediate attention.\n\n\n\n\n\n\nImportantCritical Insight\n\n\n\nJH-W (Trail Section) represents the highest priority for risk management due to the concentration of poor-condition trees, while Kells Park requires long-term structural monitoring due to the size and multi-branch nature of its population.\n\n\n\n\n\nMaturity: The population is heavily skewed toward large mature trees (72.15%), providing significant canopy cover but requiring risk management for aging wood.\nRegeneration: Recent planting efforts are evident, with 22.8% of the inventory consisting of newly planted trees, primarily clustered in JH-P.\n\n\n\n\n\nOverall Health: The majority of the trees is in Good Condition (81.6%).\nVulnerability: Trail-side trees show higher rates of decline compared to park trees.\nPathology: The primary indicators of decline are visible rot and structural damage, rather than pest infestation, though some mushrooms are present.",
+    "crumbs": [
+      "Summary"
+    ]
+  },
+  {
+    "objectID": "summary.html#key-findings",
+    "href": "summary.html#key-findings",
+    "title": "Executive Summary",
+    "section": "",
+    "text": "The 2025 inventory of the James F. Hall Trail and associated parks reveals a predominantly healthy, mature urban forest, though specific zones require immediate attention.\n\n\n\n\n\n\nImportantCritical Insight\n\n\n\nJH-W (Trail Section) represents the highest priority for risk management due to the concentration of poor-condition trees, while Kells Park requires long-term structural monitoring due to the size and multi-branch nature of its population.\n\n\n\n\n\nMaturity: The population is heavily skewed toward large mature trees (72.15%), providing significant canopy cover but requiring risk management for aging wood.\nRegeneration: Recent planting efforts are evident, with 22.8% of the inventory consisting of newly planted trees, primarily clustered in JH-P.\n\n\n\n\n\nOverall Health: The majority of the trees is in Good Condition (81.6%).\nVulnerability: Trail-side trees show higher rates of decline compared to park trees.\nPathology: The primary indicators of decline are visible rot and structural damage, rather than pest infestation, though some mushrooms are present.",
+    "crumbs": [
+      "Summary"
+    ]
+  },
+  {
+    "objectID": "summary.html#maintenance-recommendations",
+    "href": "summary.html#maintenance-recommendations",
+    "title": "Executive Summary",
+    "section": "Maintenance Recommendations",
+    "text": "Maintenance Recommendations\nBased on the inventory data, the following maintenance actions are recommended:\n\n\n\n\n\n\n\n\n\nPriority\nLocation\nIssue\nRecommended Action\n\n\n\n\nHigh\nJH-W\nConcentration of “Poor” condition trees\nConduct individual risk assessments (Level 2) to determine removal or mitigation needs.\n\n\nMedium\nKell Park\nHigh volume of large, multi-branch trees\nSchedule structural pruning to reduce failure risk over park amenities.\n\n\nLow\nJH-P\nHigh density of newly planted trees\nEnsure watering schedule and check stakes/ties for girdling risk in 12-24 months.",
+    "crumbs": [
+      "Summary"
+    ]
+  },
+  {
+    "objectID": "summary.html#future-directions",
+    "href": "summary.html#future-directions",
+    "title": "Executive Summary",
+    "section": "Future Directions",
+    "text": "Future Directions\n\nTechnological Integration\nWe propose developing a computer vision–based workflow to assist in future tree screenings. By training models on images of visible rot and structural defects collected during this inventory, we can:\n\nAutomate preliminary condition assessments.\nReduce field workload for certified arborists.\nCreate a “triage” system to prioritize trees for manual inspection.\n\n\n\nRecommended Long-Term Monitoring\n\nCycle: Repeat this inventory every 3-5 years to track growth rates and condition changes.\nGIS Integration: Integrate these findings into the Newark city GIS layer to coordinate trail maintenance (paving/salting) with root zone protection.",
+    "crumbs": [
+      "Summary"
     ]
   }
 ]
