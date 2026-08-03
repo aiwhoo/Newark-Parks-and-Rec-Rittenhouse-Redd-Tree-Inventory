@@ -1,6 +1,6 @@
 ---
 title: "Significant Tree Inventory for Newark Parks and Recreation (December 2025)"
-subtitle: "An Inventory of Tree Resources in Phillips, Lewis, and Kells Park and Along the James F. Hall Trail Corridor"
+subtitle: "An Inventory of Tree Resources in Rittenhouse Park and Along Redd Park Trail Sections"
 author:
   - name: Winnie Li
   - name: Ikechukwu Ogbonnia
@@ -34,22 +34,22 @@ For questions regarding this report, please contact Matthew Saponaro, Ph.D., Dir
 
 ## Motivation
 
-The purpose of this inventory is to identify, measure, and document significant trees across the [James F. Hall Trail](https://delawaregreenways.org/trail/james-f-hall-trail/) and three local parks (Phillips, Lewis, and Kells). The collected data will support planning, maintenance, ecological assessments, and long-term urban forestry initiatives.
+The purpose of this inventory is to identify, measure, and document large, mature trees in Rittenhouse Park and along parts of Redd Park Trail, Redd Trail 1, and Redd Trail 3 in William M. Redd Jr. Park. The collected data will support planning, maintenance, ecological assessments, and long-term urban forestry initiatives.
 
 ## Overview
 
-In total, 158 significant trees were inventoried. Of these, 114 are large mature trees (72.15%), 8 are young trees (5.06%), and 36 are newly planted (22.78%). See figure [6](inventoryInsights.html#tree-type-distribution-across-sites) for more details. In this project, “significant trees” were defined as follows:
+Across Rittenhouse Park and Redd Park trail sections, 117 trees were inventoried. Of the trees recorded, 105 (89.74%) are large, mature trees, and 12 (10.26%) are slightly smaller than large, mature trees. In this project, only large, mature trees were intentionally sought to be measured; however, some measured trees were smaller than the criteria for a large, mature tree and were recorded regardless. The criteria for "large, mature trees" were defined as follows:
 
--   **Large mature trees**: Any trees with a Diameter at Breast height (DBH) ≥ 20 inches
--   **Young tree**: Young, intentionally planted trees that have reached a stage of growth where supplemental support is no longer present
--   **Newly planted trees**: Young, intentionally planted trees with supplemental support (e.g., wooden stakes or protective cages)
+Large Mature Trees: Any trees with a Diameter at Breast Height (DBH) >= 20 inches
 
 ## Inventoried Locations
 
-We collected the data on James F. Hall Trail, a widely used trail that runs through three local parks: Phillips, Lewis, and Kells. The inventory included significant trees located within a 15-foot buffer of the paved trail or within a 15-foot fall distance of park amenities. To maintain an organized approach, the trail was divided into 8 smaller sections (JH-W, JH-P, JH-A, JH-L, JH-K, JH-R, JH-UD, and JH-E). Including the three individual park sites (PHIL, LEW, KELL), the study encompassed a total of 11 inventory locations.
+The tree inventory was completed across sections of Rittenhouse Park and Redd Park Trail to collect information on tree locations, characteristics, and overall conditions. The survey focused on trees located within a 15-foot buffer of the trail area to create a consistent study boundary and capture trees that may impact or interact with the surrounding trail environment.
+
+Figure 1 displays the inventoried locations and provides a visual overview of the areas included in the study. The selected locations represent a mix of trail and park settings, allowing for a better understanding of tree distribution and patterns throughout the area.
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1L1EOKHYYIpvG8KEbe4iMEppFlZ598jA&amp;ehbc=2E312F" width="640" height="480" style="border:0; display: block; margin: 0 auto;" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
 
 </iframe>
 
-<br/> **Figure 1.** Map showing inventoried tree locations along the James F. Hall Trail and surrounding parks.
+<br/> **Figure 1.** Map showing inventoried tree locations across sections of Rittenhouse Park and Redd Park Trail.
