@@ -5,20 +5,20 @@ format: html
 
 ## Key Findings
 
-The 2025 inventory of the James F. Hall Trail and associated parks reveals a predominantly healthy, mature urban forest, though specific zones require immediate attention.
+The 2025 inventory of Rittenhouse Park and Redd Park trail sections reveals a mature tree population with notable structural and condition concerns across both site groups.
 
 ::: {.callout-important}
 ### Critical Insight
-**JH-W (Trail Section)** represents the highest priority for risk management due to the concentration of poor-condition trees, while **Kells Park** requires long-term structural monitoring due to the size and multi-branch nature of its population.
+**RD-S (Redd Park trail sections)** represents the highest priority for risk management due to the concentration of poor-condition trees, while **RH-P (Rittenhouse Park)** also requires continued monitoring because it contains the largest number of inventoried trees and six multi-branch mature trees.
 :::
 
 ### 1. Tree Demographics
-* **Maturity:** The population is heavily skewed toward large mature trees (**72.15%**), providing significant canopy cover but requiring risk management for aging wood.
-* **Regeneration:** Recent planting efforts are evident, with **22.8%** of the inventory consisting of newly planted trees, primarily clustered in **JH-P**.
+* **Maturity:** The population is heavily skewed toward large mature trees (**89.74%**), providing significant canopy cover but requiring risk management for aging wood.
+* **Smaller-diameter trees:** **10.26%** of the inventory consists of trees below the large mature DBH threshold that were recorded when encountered during field collection.
 
 ### 2. Health & Condition
-* **Overall Health:** The majority of the trees is in **Good Condition (81.6%)**.
-* **Vulnerability:** Trail-side trees show higher rates of decline compared to park trees.
+* **Overall Health:** About half of the trees are in **Good Condition (50.43%)**, while **26.50%** are rated poor.
+* **Vulnerability:** Poor-condition trees are present in both site groups, with **17** in RD-S and **14** in RH-P.
 * **Pathology:** The primary indicators of decline are visible rot and structural damage, rather than pest infestation, though some mushrooms are present.
 
 ---
@@ -29,9 +29,9 @@ Based on the inventory data, the following maintenance actions are recommended:
 
 | Priority | Location | Issue | Recommended Action |
 | :--- | :--- | :--- | :--- |
-| **High** | **JH-W** | Concentration of "Poor" condition trees | Conduct individual risk assessments (Level 2) to determine removal or mitigation needs. |
-| **Medium** | **Kell Park** | High volume of large, multi-branch trees | Schedule structural pruning to reduce failure risk over park amenities. |
-| **Low** | **JH-P** | High density of newly planted trees | Ensure watering schedule and check stakes/ties for girdling risk in 12-24 months. |
+| **High** | **RD-S** | Highest count of poor-condition trees | Conduct individual risk assessments (Level 2) to determine removal or mitigation needs. |
+| **Medium** | **RH-P** | Largest number of inventoried trees and six multi-branch mature trees | Schedule periodic structural inspections to evaluate branch unions, decay, and canopy imbalance. |
+| **Low** | **Both site groups** | Smaller-diameter trees recorded during inventory | Continue monitoring growth, condition, and establishment needs during future inventory cycles. |
 
 ---
 
