@@ -124,7 +124,7 @@ fig
 
 ```
 <br/>
-**Figure 3.** Tree inventory map. Each point is an inventoried tree with its size proportional to its DBH. For the sake of visualization, large mature trees are scaled by 0.5 , while young and newly planted trees are scaled by 3.  
+**Figure 3.** Tree inventory map. Each point is an inventoried tree with its size proportional to its DBH. For the sake of visualization, large mature trees are scaled by 0.5, while young and newly planted trees are scaled by 3.  
 
 ## Tree Density
 
@@ -309,7 +309,7 @@ fig = make_subplots(
     column_widths=[0.4, 0.6],
     horizontal_spacing=0.18,  # Increased to prevent squishing
     specs=[[{"type": "domain"}, {"type": "bar"}]],
-    subplot_titles=("A. Overall Type of Signficiant Trees", "B. Type of Signficiant Trees by Site")
+    subplot_titles=("A. Overall Type of Significant Trees", "B. Type of Significant Trees by Site")
 )
 
 # After creating the subplots
@@ -395,7 +395,7 @@ fig.show()
 
 ```
 <br/>
-**Figure 6.** Type of signficiant trees overall and by site location. 
+**Figure 6.** Type of significant trees overall and by site location. 
 
 Overall, the majority of the inventoried trees are large and mature (89.74%), as illustrated by Figure [6A](inventoryInsights.html#tree-type-distribution-across-sites). This indicates that the inventory is dominated by established mature trees rather than smaller trees.
 
@@ -484,7 +484,7 @@ HTML(multi_branch_table.to_html(index=False))
 
 **Table 2.** Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.
 
-Multi-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow "V"-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young ([Mitchell 2017](inventoryInsights.html#references)).
+Multi-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow "V"-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young ([Mitchell 2022](inventoryInsights.html#references)).
 
 As shown in Figure [7](inventoryInsights.html#multi-branch-trees-across-sites), the current inventory includes 10 multi-branch trees. Six are located in Rittenhouse Park (RH-P), and four are located in Redd Park trail sections (RD-S). All inventoried multi-branch trees are classified as large mature trees (Table [2](inventoryInsights.html#multi-branch-trees-across-sites)), indicating that structural monitoring should focus on mature-tree branch unions and any signs of included bark, decay, cracking, or weak attachment.
 
@@ -686,4 +686,4 @@ The condition notes word cloud highlights the most common concerns recorded for 
 Visible rotting and hollow sections may indicate internal decay that weakens the trunk, while splitting and severe leaning can increase the risk of branch or tree failure. Several of these issues were also found among large, mature trees, meaning their size may make structural problems more significant for nearby trails and park users. Overall, the condition notes show that poor-condition trees should be prioritized for further inspection, continued monitoring, and possible maintenance by qualified tree-care professionals.
 
 ## References 
-Mitchell, Ralph E. “Codominant Stems – Potential Future Tree Failures.” UF/IFAS Extension Charlotte County, 18 May 2017, blogs.ifas.ufl.edu/charlotteco/2017/05/18/codominant-stems-potential-future-tree-failures/.
+Mitchell, Ralph E. “Wishbones.” UF/IFAS Extension Charlotte County, 20 October 2022, https://blogs.ifas.ufl.edu/charlotteco/2022/10/20/wishbones/.
