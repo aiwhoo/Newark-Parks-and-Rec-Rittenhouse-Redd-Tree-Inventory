@@ -2,7 +2,7 @@
 title: "Inventory Insights"
 ---
 
-The tree inventory reveals distinct patterns in tree age and distribution across the study area. Large mature trees are primarily concentrated within Kells Park, indicating a long-established canopy in that location. In contrast, newly planted trees are most common in JH-P, reflecting recent restoration or expansion efforts. The following figures summarize key insights into tree density, size, and condition, highlighting both the spatial distribution of significant trees and the health trends across different sites.
+The tree inventory reveals distinct patterns in tree size, density, and condition across Rittenhouse Park and Redd Park trail sections. Most inventoried trees are large mature trees, with smaller-diameter trees also recorded when encountered during field collection. The following figures summarize key insights into tree density, size, canopy spread, multi-branch structure, and condition, highlighting both the spatial distribution of inventoried trees and health trends across the two site groups.
 
 ## Tree Inventory Map 
 
@@ -124,7 +124,7 @@ fig
 
 ```
 <br/>
-**Figure 3.** Tree inventory map. Each point is an inventoried tree with its size proportional to its DBH. For the sake of visualization, large mature trees are scaled by 0.5 , while young and newly planted trees are scaled by 3.  
+**Figure 3.** Tree inventory map. Each point is an inventoried tree with its size proportional to its DBH. For the sake of visualization, large mature trees are scaled by 0.5, while young and newly planted trees are scaled by 3.  
 
 ## Tree Density
 
@@ -164,7 +164,9 @@ fig.show()
 
 ```
 <br/>
-**Figure 4.** Tree density map (Lighter areas indicate higher number of trees).
+**Figure 4.** Tree density map (Orange and yellow areas indicate higher density of trees, while dark purple areas indicate lower density).
+
+The main hotspot I can identify along the trail is the linear strip that runs up and down the southern cluster of Rittenhouse Park. This hotspot of trees contains orange and yellow trees which represent that these trees have a higher density meaning this demonstrates a packed grove. The second hotspot I was able to identify along the trail is the northern cluster right near the river bend. This cluster however mainly contains purple points which indicates that these trees have a lower density compared to the southern section.
 
 ## Tree Height, DBH, and Average Spread Distribution
 ```{python}
@@ -307,7 +309,7 @@ fig = make_subplots(
     column_widths=[0.4, 0.6],
     horizontal_spacing=0.18,  # Increased to prevent squishing
     specs=[[{"type": "domain"}, {"type": "bar"}]],
-    subplot_titles=("A. Overall Type of Signficiant Trees", "B. Type of Signficiant Trees by Site")
+    subplot_titles=("A. Overall Type of Significant Trees", "B. Type of Significant Trees by Site")
 )
 
 # After creating the subplots
@@ -393,13 +395,13 @@ fig.show()
 
 ```
 <br/>
-**Figure 6.** Type of signficiant trees overall and by site location. 
+**Figure 6.** Type of significant trees overall and by site location. 
 
-Overall, the majority of the inventoried trees are large and mature (72.15%), as illustrated by Figure [6A](inventoryInsights.html#tree-type-distribution-across-sites). This indicates that the trail and parks are dominated by established mature trees rather than recent plantings.
+Overall, the majority of the inventoried trees are large and mature (89.74%), as illustrated by Figure [6A](inventoryInsights.html#tree-type-distribution-across-sites). This indicates that the inventory is dominated by established mature trees rather than smaller trees.
 
-As shown in Figure [6B](inventoryInsights.html#tree-type-distribution-across-sites), Kell Park contains the highest number of significant trees (30), followed closely by JH-W (29), while Lewis Park and Philips Park each have 21 significant trees. Together, park spaces account for nearly half of all inventoried trees (45.57%).
+As shown in Figure [6B](inventoryInsights.html#tree-type-distribution-across-sites), Rittenhouse Park (RH-P) contains the highest number of inventoried trees (80), while Redd Park trail sections (RD-S) contain 37 inventoried trees.
 
-Figure [6B](inventoryInsights.html#tree-type-distribution-across-sites) further shows that Kell Park has the greatest concentration of large mature trees (25), making it the site with the greatest number of high-value trees for ongoing monitoring and protection. Young trees were recorded only in Philips Park and JH-P, with JH-P also having the highest number of newly planted trees, highlighting these sites as priorities for establishment and long-term survivability.
+Figure [6B](inventoryInsights.html#tree-type-distribution-across-sites) further shows that both site groups are primarily composed of large mature trees. RH-P contains 71 large mature trees and 9 young trees, while RD-S contains 34 large mature trees and 3 young trees.
 
 ## Multi-Branch Trees Across Sites
 ```{python}
@@ -452,6 +454,8 @@ fig.show()
 
 ```{python}
 #| echo: false
+from IPython.display import HTML
+
 multi_branch_trees = trees[trees["Multi-branch?"] == "Yes"]
 
 if multi_branch_trees.empty:
@@ -473,18 +477,18 @@ else:
     )
 
 multi_branch_table.columns.name = None
-multi_branch_table.to_html(index=False)
+HTML(multi_branch_table.to_html(index=False))
 ```
 
 <br/>
 
 **Table 2.** Count of multi-branch trees by site and significant tree type, excluding sites with no inventoried multi-branch trees.
 
-Multi-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow "V"-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young ([Mitchell 2017](inventoryInsights.html#references)).
+Multi-branch trees provide greater canopy coverage, as multiple branches contribute to foliage and shade. Among the inventoried multi-branch trees, some may be codominant stems, where two or more large stems grow from the same point, forming a narrow "V"-shaped crotch. These stems can be structurally weaker as the tree matures and are most effectively managed through pruning while the trees are young ([Mitchell 2022](inventoryInsights.html#references)).
 
-As shown in Figure [7](inventoryInsights.html#multi-branch-trees-across-sites), Rittenhouse Park includes two inventoried multi-branch trees. Both are classified as large mature trees (Table [2](inventoryInsights.html#multi-branch-trees-across-sites)), indicating that structural monitoring should focus on mature-tree branch unions and any signs of included bark, decay, cracking, or weak attachment.
+As shown in Figure [7](inventoryInsights.html#multi-branch-trees-across-sites), the current inventory includes 10 multi-branch trees. Six are located in Rittenhouse Park (RH-P), and four are located in Redd Park trail sections (RD-S). All inventoried multi-branch trees are classified as large mature trees (Table [2](inventoryInsights.html#multi-branch-trees-across-sites)), indicating that structural monitoring should focus on mature-tree branch unions and any signs of included bark, decay, cracking, or weak attachment.
 
-No young or newly planted multi-branch trees were identified in the current Rittenhouse Park inventory. As a result, the main management priority is not early structural pruning of new plantings, but periodic inspection of the two mature multi-branch trees to determine whether either has codominant stems or other structural concerns requiring arborist review.
+No young multi-branch trees were identified in the current inventory. As a result, the main management priority is not early structural pruning of new plantings, but periodic inspection of the 10 mature multi-branch trees to determine whether any have codominant stems or other structural concerns requiring arborist review.
 
 ## Orthogonal Spread Measurements
 
@@ -555,7 +559,7 @@ fig.show()
 <br/>
 **Figure 8.** Spread was measured in two perpendicular directions. This graph shows the first spread measurement against the second spread measurement for each site. Hover each point to see more information.
 
-A large difference between orthogonal spread measurements indicates a highly irregular, asymmetrical canopy. This suggests the tree is not growing evenly and may be crowded by neighboring trees.
+A difference of 14 feet between the two spreads can be considered large; therefore, the tree's canopy can be classified as asymmetrical. In the current inventory, 40 of the 117 trees have an orthogonal spread difference of 14 feet or more. Thus, 34.19% of the trees have an asymmetrical canopy. Tree ID RH-P-049, RH-P-048, and RH-P-052 had extreme asymmetry. RH-P-049 had a difference of 78 feet, with spread 1 being 65 feet and spread 2 being 143 feet. RH-P-048 had a difference of 65 feet, with spread 1 being 65 feet and spread 2 being 130 feet. RH-P-052 had a difference of 55 feet, with spread 1 being 45 feet and spread 2 being 100 feet. This tree's condition is flagged as poor. So extreme canopy imbalance is a potential structural risk.
 
 ## Tree Conditions 
 
@@ -624,13 +628,9 @@ fig11 = px.bar(
 fig11.show()
 ```
 
-**Figure 10.** Condition of trees by site.
+**Figure 10.** Tree condition by site. Green indicates trees in good condition, blue indicates fair condition, red indicates poor condition, purple indicates dead trees, and orange indicates stumps.
 
-Across all inventoried trees, the majority (81.65%) were rated in good condition, with smaller proportions classified as fair (8.86%) or poor (9.49%). 
-
-Tree condition was not evenly distributed across site locations. Notably, JH-W had the highest number of poor-condition trees (10), which stands out relative to most other locations.
-
-When toggling on only poor-condition trees in Figure [10](inventoryInsights.html#tree-conditions), trail locations (JH-A, JH-L, JH-UD, and JH-W) collectively accounted for a substantially higher number of poor-condition trees (13) compared to park locations (LEW and PHIL), which together contained only two. This finding suggests that trees along trails may be more vulnerable to stressors than those in park settings.
+Across all inventoried sites, 59 trees (50.43%) were rated in good condition, 22 (18.80%) were rated fair, 31 (26.50%) were rated poor, 2 (1.71%) were recorded as dead, and 3 (2.56%) were recorded as stumps. Poor-condition trees were recorded in both site groups, with 17 poor-condition trees in RD-S and 14 poor-condition trees in RH-P. This pattern indicates that structural and health concerns are present across both the Redd Park trail sections and Rittenhouse Park, rather than being isolated to one location.
 
 ```{python}
 #| echo: false
@@ -679,7 +679,11 @@ else:
     print("No notes available for poor-condition trees.")
 ```
 
-**Figure 11.** Word cloud showing the most commonly noted characteristics of poor-condition trees. Visual rotting is the most commonly noted characteristics of poor-condition trees.
+**Figure 11.** Inventory Insight Condition Notes Word Cloud
+
+The condition notes word cloud highlights the most common concerns recorded for trees rated in poor condition. The repeated terms point to major structural issues, including visible rotting, hollow trunks, splitting, leaning, mold, and damaged branches. These observations suggest that poor tree health was often connected to physical deterioration rather than minor cosmetic damage.
+
+Visible rotting and hollow sections may indicate internal decay that weakens the trunk, while splitting and severe leaning can increase the risk of branch or tree failure. Several of these issues were also found among large, mature trees, meaning their size may make structural problems more significant for nearby trails and park users. Overall, the condition notes show that poor-condition trees should be prioritized for further inspection, continued monitoring, and possible maintenance by qualified tree-care professionals.
 
 ## References 
-Mitchell, Ralph E. “Codominant Stems – Potential Future Tree Failures.” UF/IFAS Extension Charlotte County, 18 May 2017, blogs.ifas.ufl.edu/charlotteco/2017/05/18/codominant-stems-potential-future-tree-failures/.
+Mitchell, Ralph E. “Wishbones.” UF/IFAS Extension Charlotte County, 20 October 2022, https://blogs.ifas.ufl.edu/charlotteco/2022/10/20/wishbones/.
