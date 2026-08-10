@@ -2,7 +2,7 @@
 title: "Inventory Insights"
 ---
 
-The tree inventory reveals distinct patterns in tree age and distribution across the study area. Large mature trees are primarily concentrated within Kells Park, indicating a long-established canopy in that location. In contrast, newly planted trees are most common in JH-P, reflecting recent restoration or expansion efforts. The following figures summarize key insights into tree density, size, and condition, highlighting both the spatial distribution of significant trees and the health trends across different sites.
+The Rittenhouse Park inventory is dominated by large, mature trees, many of which are exceptionally tall for an urban park setting. The following figures summarize tree locations, density, height, DBH, canopy spread, multi-branch structure, and condition within the current Rittenhouse Park report area.
 
 ## Tree Inventory Map 
 
@@ -124,7 +124,7 @@ fig
 
 ```
 <br/>
-**Figure 3.** Tree inventory map. Each point is an inventoried tree with its size proportional to its DBH. For the sake of visualization, large mature trees are scaled by 0.5 , while young and newly planted trees are scaled by 3.  
+**Figure 3.** Tree inventory map. Each point is an inventoried tree with its size proportional to its DBH. For the sake of visualization, large mature trees are scaled by 0.5, while young and newly planted trees are scaled by 3.
 
 ## Tree Density
 
@@ -164,7 +164,9 @@ fig.show()
 
 ```
 <br/>
-**Figure 4.** Tree density map (Lighter areas indicate higher number of trees).
+**Figure 4.** Tree density map. Orange and yellow areas indicate higher tree density, while darker purple areas indicate lower tree density.
+
+The highest-density area appears in the southern Rittenhouse Park cluster, where inventoried trees form a concentrated grove along the trail corridor. A smaller northern cluster appears near the river bend, with lower relative density than the southern section.
 
 ## Tree Height, DBH, and Average Spread Distribution
 ```{python}
@@ -307,7 +309,7 @@ fig = make_subplots(
     column_widths=[0.4, 0.6],
     horizontal_spacing=0.18,  # Increased to prevent squishing
     specs=[[{"type": "domain"}, {"type": "bar"}]],
-    subplot_titles=("A. Overall Type of Signficiant Trees", "B. Type of Signficiant Trees by Site")
+    subplot_titles=("A. Overall Type of Significant Trees", "B. Type of Significant Trees by Site")
 )
 
 # After creating the subplots
@@ -393,13 +395,13 @@ fig.show()
 
 ```
 <br/>
-**Figure 6.** Type of signficiant trees overall and by site location. 
+**Figure 6.** Type of significant trees overall and by site location.
 
-Overall, the majority of the inventoried trees are large and mature (72.15%), as illustrated by Figure [6A](inventoryInsights.html#tree-type-distribution-across-sites). This indicates that the trail and parks are dominated by established mature trees rather than recent plantings.
+The current Rittenhouse Park inventory is composed of large mature trees, as illustrated by Figure [6A](inventoryInsights.html#tree-type-distribution-across-sites). This supports the report focus on mature canopy structure, tree height, and maintenance needs for established trees.
 
-As shown in Figure [6B](inventoryInsights.html#tree-type-distribution-across-sites), Kell Park contains the highest number of significant trees (30), followed closely by JH-W (29), while Lewis Park and Philips Park each have 21 significant trees. Together, park spaces account for nearly half of all inventoried trees (45.57%).
+As shown in Figure [6B](inventoryInsights.html#tree-type-distribution-across-sites), the current records are grouped under RH-P for Rittenhouse Park. Redd Park Trail should be reviewed separately.
 
-Figure [6B](inventoryInsights.html#tree-type-distribution-across-sites) further shows that Kell Park has the greatest concentration of large mature trees (25), making it the site with the greatest number of high-value trees for ongoing monitoring and protection. Young trees were recorded only in Philips Park and JH-P, with JH-P also having the highest number of newly planted trees, highlighting these sites as priorities for establishment and long-term survivability.
+Figure [6B](inventoryInsights.html#tree-type-distribution-across-sites) further supports treating Rittenhouse Park as its own maintenance area rather than comparing it directly with Redd Park Trail.
 
 ## Multi-Branch Trees Across Sites
 ```{python}
@@ -626,11 +628,11 @@ fig11.show()
 
 **Figure 10.** Condition of trees by site.
 
-Across all inventoried trees, the majority (81.65%) were rated in good condition, with smaller proportions classified as fair (8.86%) or poor (9.49%). 
+Across the current Rittenhouse Park inventory, most trees were rated in good condition, while a smaller group was rated fair or poor. One recorded stump is also included in the current condition data.
 
-Tree condition was not evenly distributed across site locations. Notably, JH-W had the highest number of poor-condition trees (10), which stands out relative to most other locations.
+Because the current records are grouped under RH-P, Figure [10](inventoryInsights.html#tree-conditions) should be interpreted as a Rittenhouse Park condition summary rather than a comparison across parks or trail sections.
 
-When toggling on only poor-condition trees in Figure [10](inventoryInsights.html#tree-conditions), trail locations (JH-A, JH-L, JH-UD, and JH-W) collectively accounted for a substantially higher number of poor-condition trees (13) compared to park locations (LEW and PHIL), which together contained only two. This finding suggests that trees along trails may be more vulnerable to stressors than those in park settings.
+Poor-condition trees should be prioritized for closer inspection, especially where visible defects, canopy imbalance, or proximity to trail use could increase maintenance concerns.
 
 ```{python}
 #| echo: false

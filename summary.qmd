@@ -5,45 +5,41 @@ format: html
 
 ## Key Findings
 
-The 2025 inventory of the James F. Hall Trail and associated parks reveals a predominantly healthy, mature urban forest, though specific zones require immediate attention.
+The 2025 Rittenhouse Park inventory documents a mature tree population with notable canopy value and maintenance needs. The current report is focused on RH-P and should not be compared directly with Redd Park Trail.
 
 ::: {.callout-important}
 ### Critical Insight
-**JH-W (Trail Section)** represents the highest priority for risk management due to the concentration of poor-condition trees, while **Kells Park** requires long-term structural monitoring due to the size and multi-branch nature of its population.
+**Rittenhouse Park (RH-P)** contains a concentration of large, mature trees, including exceptionally tall trees. Continued monitoring should focus on tree condition, canopy balance, and structural features such as multi-branch unions.
 :::
 
 ### 1. Tree Demographics
-* **Maturity:** The population is heavily skewed toward large mature trees (**72.15%**), providing significant canopy cover but requiring risk management for aging wood.
-* **Regeneration:** Recent planting efforts are evident, with **22.8%** of the inventory consisting of newly planted trees, primarily clustered in **JH-P**.
+* **Maturity:** The current inventory is composed of large mature trees, with 51 trees meeting the DBH threshold of 20 inches or greater.
+* **Height:** Tree heights in Rittenhouse Park are notably high, with the tallest recorded tree reaching 190 feet.
 
 ### 2. Health & Condition
-* **Overall Health:** The majority of the trees is in **Good Condition (81.6%)**.
-* **Vulnerability:** Trail-side trees show higher rates of decline compared to park trees.
-* **Pathology:** The primary indicators of decline are visible rot and structural damage, rather than pest infestation, though some mushrooms are present.
+* **Overall Health:** Most trees are rated in good condition, but poor-condition trees are present and should be reviewed for structural or health concerns.
+* **Structural Monitoring:** Multi-branch trees and trees with visible canopy imbalance should be checked periodically for weak unions, decay, cracking, or other failure risks.
+* **Maintenance Focus:** Rittenhouse Park should be treated as its own maintenance area rather than compared directly with Redd Park Trail.
 
 ---
 
 ## Maintenance Recommendations
 
-Based on the inventory data, the following maintenance actions are recommended:
+Based on the current Rittenhouse Park inventory, the following maintenance actions are recommended:
 
 | Priority | Location | Issue | Recommended Action |
 | :--- | :--- | :--- | :--- |
-| **High** | **JH-W** | Concentration of "Poor" condition trees | Conduct individual risk assessments (Level 2) to determine removal or mitigation needs. |
-| **Medium** | **Kell Park** | High volume of large, multi-branch trees | Schedule structural pruning to reduce failure risk over park amenities. |
-| **Low** | **JH-P** | High density of newly planted trees | Ensure watering schedule and check stakes/ties for girdling risk in 12-24 months. |
+| **High** | **RH-P** | Poor-condition trees | Conduct individual risk assessments to determine whether pruning, monitoring, or removal is needed. |
+| **Medium** | **RH-P** | Large mature trees and multi-branch structure | Schedule periodic structural inspections to evaluate branch unions, decay, and canopy imbalance. |
+| **Low** | **RH-P** | Long-term canopy tracking | Repeat measurements over time to monitor changes in DBH, height, spread, and condition. |
 
 ---
 
 ## Future Directions
 
-### Technological Integration
-We propose developing a **computer vision–based workflow** to assist in future tree screenings. By training models on images of visible rot and structural defects collected during this inventory, we can:
-
-1.  Automate preliminary condition assessments.
-2.  Reduce field workload for certified arborists.
-3.  Create a "triage" system to prioritize trees for manual inspection.
+### Separate Redd Park Trail Review
+Redd Park Trail should be handled separately. It can use the same general structure as the Rittenhouse Park report, but it should not be directly compared to Rittenhouse Park because the two areas may require different maintenance plans.
 
 ### Recommended Long-Term Monitoring
 * **Cycle:** Repeat this inventory every 3-5 years to track growth rates and condition changes.
-* **GIS Integration:** Integrate these findings into the Newark city GIS layer to coordinate trail maintenance (paving/salting) with root zone protection.
+* **GIS Integration:** Integrate these findings into the Newark city GIS layer to coordinate trail maintenance with tree monitoring and root zone protection.
