@@ -1,8 +1,7 @@
 ---
 title: "Significant Tree Inventory for Newark Parks and Recreation (December 2025)"
-subtitle: "An Inventory of Tree Resources in Phillips, Lewis, and Kells Park and Along the James F. Hall Trail Corridor"
+subtitle: "An Inventory of Tree Resources in Rittenhouse Park"
 author:
-  - name: Winnie Li
   - name: Ikechukwu Ogbonnia
   - name: Matthew Saponaro
     degrees: PhD
@@ -34,11 +33,11 @@ For questions regarding this report, please contact Matthew Saponaro, Ph.D., Dir
 
 ## Motivation
 
-The purpose of this inventory is to identify, measure, and document significant trees across the [James F. Hall Trail](https://delawaregreenways.org/trail/james-f-hall-trail/) and three local parks (Phillips, Lewis, and Kells). The collected data will support planning, maintenance, ecological assessments, and long-term urban forestry initiatives.
+The purpose of this inventory is to identify, measure, and document large, mature trees in Rittenhouse Park. The collected data will support planning, maintenance, ecological assessments, and long-term urban forestry initiatives. Redd Park Trail will be addressed separately rather than compared directly with Rittenhouse Park.
 
 ## Overview
 
-In total, 158 significant trees were inventoried. Of these, 114 are large mature trees (72.15%), 8 are young trees (5.06%), and 36 are newly planted (22.78%). See figure [6](inventoryInsights.html#tree-type-distribution-across-sites) for more details. In this project, “significant trees” were defined as follows:
+In the current Rittenhouse Park inventory, 55 trees were inventoried. All 55 are currently classified as large mature trees. Based on DBH measurements, 51 trees meet the DBH threshold of 20 inches or greater, while 4 trees fall below that threshold but were still recorded during field collection. See Figure [6](inventoryInsights.html#tree-type-distribution-across-sites) for more details. In this project, "significant trees" were defined as follows:
 
 -   **Large mature trees**: Any trees with a Diameter at Breast height (DBH) ≥ 20 inches
 -   **Young tree**: Young, intentionally planted trees that have reached a stage of growth where supplemental support is no longer present
@@ -46,10 +45,12 @@ In total, 158 significant trees were inventoried. Of these, 114 are large mature
 
 ## Inventoried Locations
 
-We collected the data on James F. Hall Trail, a widely used trail that runs through three local parks: Phillips, Lewis, and Kells. The inventory included significant trees located within a 15-foot buffer of the paved trail or within a 15-foot fall distance of park amenities. To maintain an organized approach, the trail was divided into 8 smaller sections (JH-W, JH-P, JH-A, JH-L, JH-K, JH-R, JH-UD, and JH-E). Including the three individual park sites (PHIL, LEW, KELL), the study encompassed a total of 11 inventory locations.
+We collected the current report data in Rittenhouse Park under the site code RH-P. The inventory focused on trees located within the park and near the trail area so that trees with potential maintenance, canopy, or safety relevance could be documented consistently.
+
+Redd Park Trail will be addressed separately. In the narrative, it should be described as Redd Park Trail. For broader trail context and mapping, see the [Delaware Greenways interactive trail map](https://delawaregreenways.org/trail-library/).
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1L1EOKHYYIpvG8KEbe4iMEppFlZ598jA&amp;ehbc=2E312F" width="640" height="480" style="border:0; display: block; margin: 0 auto;" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
 
 </iframe>
 
-<br/> **Figure 1.** Map showing inventoried tree locations along the James F. Hall Trail and surrounding parks.
+<br/> **Figure 1.** Map showing inventoried tree locations for the Rittenhouse Park report area.
